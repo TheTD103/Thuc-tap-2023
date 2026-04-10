@@ -1,0 +1,20 @@
+{
+    "title": "Tài liệu Thực tập 2023 - TheTD",
+    "description": "Hệ thống tài liệu nội bộ",
+    "language": "vi",
+    "plugins": [
+        "-sharing", 
+        "expandable-chapters",
+        "splitter",
+        "back-to-top",
+        "hide-published-with"
+    ],
+    "pluginsConfig": {
+        "expandable-chapters": {},
+        "fontsettings": {
+            "theme": "white",
+            "family": "sans",
+            "size": 2
+        }
+    }
+}

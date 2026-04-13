@@ -3,11 +3,17 @@
     "description": "Hệ thống tài liệu nội bộ",
     "language": "vi",
     "plugins": [
-        "-sharing", 
+        "-sharing",
+        "-lunr",
+        "-search",
         "expandable-chapters",
         "splitter",
-        "back-to-top",
-        "hide-published-with"
+        "search-plus",
+        "popup",
+        "code",
+        "alerts",
+        "emphasize",
+        "custom-favicon"
     ],
     "pluginsConfig": {
         "expandable-chapters": {},
@@ -15,6 +21,9 @@
             "theme": "white",
             "family": "sans",
             "size": 2
+        },
+        "custom-favicon": {
+            "favicon": "./favicon.ico"
         }
     }
 }
